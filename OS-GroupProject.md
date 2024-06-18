@@ -55,14 +55,19 @@ Team Mates:
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces.***(1 mark)***.
-   ***- Ubuntu***.
+
+    ***- Ubuntu***.
      
-2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***.
+3. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***.
+   
    ***- 4 cores, 8 GB RAM, and 32 GB disk***
+   
    ***- 8 cores, 16 GB RAM, and 64 GB disk***
  
 4. Why must we commit and sync our current work on source control? ***(1 mark)***
+ 
    ***- Make sure that every modification is backed up so that it may be restored in the event of a data loss or local difficulty.***
+   
    ***- Provide everyone on the team access to the most recent versions to promote seamless integration and reduce disagreement and foster cooperation.***
 
 
@@ -370,8 +375,13 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)***
+
+   ***No. In a GitHub Actions workflow, every task operates in a totally separated environment to maintain uniformity and avoid side effects from one operation impacting another. The file system is also isolated, so unless specifically controlled, no data is retained between tasks.***
+   
+2. Can we run two, or three instances of debian linux? . ***(1 mark)***
+
+   ***Yes***
 
 ## Running your own container with persistent storage
 
