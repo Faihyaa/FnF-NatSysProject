@@ -363,7 +363,7 @@ root@f65be1987f84:~# nano helloworld.txt
 
 6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
 
-***Yes, the file is still available***
+***- Yes, the file is still available***
    
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -377,7 +377,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
    
-***'helloworld.txt' is lost because the container's filesytem is deleted***
+***- 'helloworld.txt' is lost because the container's filesytem is deleted***
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
