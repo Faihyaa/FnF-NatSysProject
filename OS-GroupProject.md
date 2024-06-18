@@ -310,23 +310,25 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6124.6 ava
     
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)***
 
-***- Name: Ubuntu 22.04 LTS
-Version: 22.04 LTS
-Hardware Architecture: x86_64***
+***- Name: Ubuntu 22.04 LTS***
+
+***Version: 22.04 LTS***
+
+***Hardware Architecture: x86_64***
     
-15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
 
     
-16. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
 
     
-17. What is the CPU speed of the Virtual CPU. ***(1 mark)***
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
 
 ***CPU speed: 3243.078 MHz***
     
-18. What is the top running process that consumes the most CPU cycles. ***(1 mark)***
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***
 
-***44690 codespa+ (13.3 %CPU)***
+***- 44690 codespa+ (13.3 %CPU)***
 
 ## Running your own container instance.
 
