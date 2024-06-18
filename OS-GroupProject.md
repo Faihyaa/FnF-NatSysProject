@@ -81,23 +81,134 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** 
+`/workspaces/FnF-NatSysProject`
+
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** `bash: cat/etc/passwd: No such file or directory`
+3. Run the command **df** . ***(1 mark)***
+
+````
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10380876  20772704  34% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 24278780   6003012  81% /vscode
+/dev/sda1       46127956      108  43752272   1% /tmp
+/dev/loop3      32847680 10380876  20772704  34% /workspaces
+````
+
+4. Run the command **du** . ***(1 mark)***
+
+````
+4       ./.git/branches
+16      ./.git/objects/1b
+8       ./.git/objects/83
+8       ./.git/objects/47
+8       ./.git/objects/71
+12      ./.git/objects/62
+8       ./.git/objects/58
+12      ./.git/objects/73
+8       ./.git/objects/a6
+8       ./.git/objects/04
+12      ./.git/objects/fd
+12      ./.git/objects/e5
+8       ./.git/objects/41
+8       ./.git/objects/7b
+8       ./.git/objects/24
+8       ./.git/objects/c6
+12      ./.git/objects/3d
+8       ./.git/objects/0b
+12      ./.git/objects/72
+12      ./.git/objects/d2
+8       ./.git/objects/15
+8       ./.git/objects/86
+12      ./.git/objects/1c
+8       ./.git/objects/eb
+8       ./.git/objects/ab
+12      ./.git/objects/ff
+12      ./.git/objects/af
+8       ./.git/objects/74
+8       ./.git/objects/96
+8       ./.git/objects/cf
+12      ./.git/objects/70
+12      ./.git/objects/6c
+8       ./.git/objects/d8
+8       ./.git/objects/91
+8       ./.git/objects/c3
+8       ./.git/objects/3a
+12      ./.git/objects/9c
+12      ./.git/objects/17
+12      ./.git/objects/2e
+12      ./.git/objects/0d
+8       ./.git/objects/52
+8       ./.git/objects/fc
+8       ./.git/objects/e7
+16      ./.git/objects/fb
+8       ./.git/objects/fa
+8       ./.git/objects/a9
+8       ./.git/objects/ca
+8       ./.git/objects/4b
+12      ./.git/objects/6e
+16      ./.git/objects/b5
+8       ./.git/objects/49
+8       ./.git/objects/60
+12      ./.git/objects/fe
+8       ./.git/objects/20
+8       ./.git/objects/f6
+12      ./.git/objects/3f
+8       ./.git/objects/a3
+8       ./.git/objects/cd
+12      ./.git/objects/f2
+8       ./.git/objects/b2
+8       ./.git/objects/93
+12      ./.git/objects/c7
+8       ./.git/objects/81
+8       ./.git/objects/e9
+8       ./.git/objects/cb
+12      ./.git/objects/64
+8       ./.git/objects/b9
+8       ./.git/objects/b6
+8       ./.git/objects/4f
+8       ./.git/objects/4a
+4       ./.git/objects/info
+12      ./.git/objects/14
+8       ./.git/objects/11
+1824    ./.git/objects/pack
+12      ./.git/objects/44
+2528    ./.git/objects
+8       ./.git/logs/refs/heads
+16      ./.git/logs/refs/remotes/origin
+20      ./.git/logs/refs/remotes
+32      ./.git/logs/refs
+40      ./.git/logs
+68      ./.git/hooks
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+4       ./.git/refs/tags
+8       ./.git/refs/heads
+16      ./.git/refs/remotes/origin
+20      ./.git/refs/remotes
+36      ./.git/refs
+8       ./.git/info
+2728    ./.git
+1972    ./images
+4720    .
+````
+
+5. Run the command **ls** . ***(1 mark)*** README.md  images
+   
+9. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
+10. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+11. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
+12. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
+13. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+14. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+15. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+16. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+17. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+18. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+19. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+20. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
 
