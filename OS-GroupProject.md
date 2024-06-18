@@ -58,15 +58,15 @@ Team Mates:
 
     ***- Ubuntu***.
      
-3. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***.
+2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***.
    
    ***- 4 cores, 8 GB RAM, and 32 GB disk***
    
    ***- 8 cores, 16 GB RAM, and 64 GB disk***
  
-4. Why must we commit and sync our current work on source control? ***(1 mark)***
+3. Why must we commit and sync our current work on source control? ***(1 mark)***
  
-   ***- Make sure that every modification is backed up so that it may be restored in the event of a data loss or local difficulty.***
+    ***- Make sure that every modification is backed up so that it may be restored in the event of a data loss or local difficulty.***
    
    ***- Provide everyone on the team access to the most recent versions to promote seamless integration and reduce disagreement and foster cooperation.***
 
@@ -79,8 +79,6 @@ Team Mates:
 @joeynor ➜ /workspaces/OSProject (main) $ whoami 
 codespace
 ```
-
-
 
 ***Questions:***
 
@@ -302,19 +300,19 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6124.6 ava
     
 11. What is the available free memory in the system. ***(1 mark)*** 
 
-***- 6.0Gi***
+    ***- 6.0Gi***
     
 12. What is the available disk space mounted on /workspace. ***(1 mark)***
 
-***- 20G***
+    ***- 20G***
     
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)***
 
-***- Name: Ubuntu 22.04 LTS***
+    ***- Name: Ubuntu 22.04 LTS***
 
-***Version: 22.04 LTS***
+    ***Version: 22.04 LTS***
 
-***Hardware Architecture: x86_64***
+    ***Hardware Architecture: x86_64***
     
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
 
@@ -324,11 +322,11 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6124.6 ava
     
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
 
-***- CPU speed: 3243.078 MHz***
+    ***- CPU speed: 3243.078 MHz***
     
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***
 
-***- 44690 codespa+ (13.3 %CPU)***
+    ***- 44690 codespa+ (13.3 %CPU)***
 
 ## Running your own container instance.
 
@@ -395,11 +393,11 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 1. Are files in the container persistent. Why not?. ***(1 mark)***
 
-   ***No. In a GitHub Actions workflow, every task operates in a totally separated environment to maintain uniformity and avoid side effects from one operation impacting another. The file system is also isolated, so unless specifically controlled, no data is retained between tasks.***
+   ***- No. In a GitHub Actions workflow, every task operates in a totally separated environment to maintain uniformity and avoid side effects from one operation impacting another. The file system is also isolated, so unless specifically controlled, no data is retained between tasks.***
    
 2. Can we run two, or three instances of debian linux? . ***(1 mark)***
 
-   ***Yes***
+   ***- Yes***
 
 ## Running your own container with persistent storage
 
