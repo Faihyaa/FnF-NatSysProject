@@ -54,10 +54,10 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. (1 mark).
+1. What is default OS used to run the virtual environment for codespaces.***(1 mark)***.
    - Ubuntu.
      
-2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark).
+2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***.
    - 4 cores, 8 GB RAM, and 32 GB disk
    - 8 cores, 16 GB RAM, and 64 GB disk
  
