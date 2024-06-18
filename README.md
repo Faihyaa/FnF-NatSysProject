@@ -244,3 +244,5 @@ docker exec c1 ping c2
 2. Check your repository link, to see if all the files and answers are included in the repository. 
 3. Submit through italeem, by providing the link to your repository.
 4. Due by ***30 May, 2024***
+
+git ls-files | wc -l
