@@ -324,7 +324,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6124.6 ava
     
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
 
-***CPU speed: 3243.078 MHz***
+***- CPU speed: 3243.078 MHz***
     
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***
 
