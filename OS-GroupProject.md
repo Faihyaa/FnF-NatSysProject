@@ -598,6 +598,9 @@ fe28af3f52e9   none        null      local
 
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
 ````
+- Yes, we are able to ping.
+
+Output: 
 PING c2 (172.20.0.3): 56 data bytes
 64 bytes from 172.20.0.3: seq=0 ttl=64 time=0.061 ms
 64 bytes from 172.20.0.3: seq=1 ttl=64 time=0.074 ms
