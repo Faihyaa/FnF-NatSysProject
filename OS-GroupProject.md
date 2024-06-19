@@ -563,14 +563,46 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)**
+````
+- Busybox is a software application that offers a number of condensed Unix capabilities in a single executable file. Compact versions of several popular UNIX utilities are combined into a single compact executable, which makes it perfect for usage with embedded computers.
+
+- When building or operating a container in Docker, users may give it a unique name by using the
+--name switch.
+````
+   
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
+````
+NETWORK ID     NAME        DRIVER    SCOPE
+f7b86e681cd3   bluenet     bridge    local
+a64965cf0345   bridge      bridge    local
+93045d6c4efe   bridgenet   bridge    local
+50cbbc3ab98c   host        host      local
+fe28af3f52e9   none        null      local
+078275c3f4ac   rednet      bridge    local
+````
+    
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
+````
+- Gateway bluenet : 172.18.0.1
+
+- Gateaway rednet : 172.19.0.1
+````
+
 4. What is the network address for the running container c1 and c2.
+````
+- IPAddress c1: 172.18.0.2
+
+-IPAddress c2 : 172.19.0.2
+````
+
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
-
-
-
+````
+PING c2 (172.20.0.3): 56 data bytes
+64 bytes from 172.20.0.3: seq=0 ttl=64 time=0.061 ms
+64 bytes from 172.20.0.3: seq=1 ttl=64 time=0.074 ms
+64 bytes from 172.20.0.3: seq=2 ttl=64 time=0.079 ms
+````
 ## Bridging two SUB Networks
 
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
