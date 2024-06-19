@@ -531,6 +531,16 @@ At the terminal, create a new directory called **myroot**, and run a instance of
    docker network create rednet
    ```
 
+   ````
+   bluenet:
+   @Faihyaa ➜ /workspaces/FnF-NatSysProject/myroot (main) $ docker network create bluenet
+   Error response from daemon: network with name bluenet already exists
+
+   rednet:
+   @Faihyaa ➜ /workspaces/FnF-NatSysProject/myroot (main) $ docker network create rednet
+   Error response from daemon: network with name rednet already exists
+   ````
+
    
    **STEP 2: (automatically running)**
 
@@ -540,6 +550,15 @@ At the terminal, create a new directory called **myroot**, and run a instance of
    docker run -itd --net rednet --name c2 busybox sh
    ```
 
+   ````
+   c1:
+   @Faihyaa ➜ /workspaces/FnF-NatSysProject/myroot (main) $ docker run -itd --net bluenet --name c1 busybox sh
+   0b018cb546d051d0e083d690e4a3741330f2c5cbd8f1b3b699926bf87b9c089b
+
+   c2:
+   @Faihyaa ➜ /workspaces/FnF-NatSysProject/myroot (main) $ docker run -itd --net rednet --name c2 busybox sh
+   8cda9310bf9e71e9d8f9be3eb8a381a8758403745999d561bffc8866fd4eb547
+   ````
 
 
 ***Questions:***
